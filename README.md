@@ -1,18 +1,51 @@
+# 🏦 Credit Analysis
 
-# 🧠 Credit Analysis
+Personal project for credit risk analysis simulation. The goal is to explore customer data and create insights for risk classification.
 
-This project is a personal simulation of a credit risk analysis based on real-world business scenarios.
+## 📊 About the Project
 
-The idea is to create a dataset of fictitious clients with financial and behavioral variables, and explore insights that could help define their credit risk level.
+This project uses the **"Give Me Some Credit"** dataset from Kaggle to perform credit risk analysis. It's an educational simulation to learn about data analysis and machine learning.
 
-The project is still in development and will include:
-- Simulated client database
-- Exploratory data analysis (EDA)
-- Risk classification
-- Simple predictive modeling
+## 📁 Project Structure
 
+```
+Credit/
+│
+├── data/                # Data files
+├── notebooks/           # Jupyter notebooks
+├── src/                 # Python code
+│   └── download_data.py # Script to download data
+├── tests/               # Tests (future)
+├── README.md            # This file
+└── requirements.txt     # Python dependencies
+```
 
-📊 Dataset: [Give Me Some Credit - Kaggle](https://www.kaggle.com/c/GiveMeSomeCredit/data)
+## 🚀 How to Use
 
+1. **Clone the project** (when on GitHub)
+2. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Run the download script**:
+   ```bash
+   python src/download_data.py
+   ```
 
-More updates coming soon.
+## 🛠️ What's Already Done
+
+- ✅ Basic project structure
+- ✅ Data download script
+- ✅ Python dependencies list
+- ✅ README with instructions
+
+## 📝 Next Steps
+
+- [ ] Exploratory data analysis
+- [ ] Data visualizations
+- [ ] Risk classification model
+- [ ] Example notebooks
+
+---
+
+**Note**: This is a study project. The data is fictional or public domain.
