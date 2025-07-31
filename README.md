@@ -4,20 +4,28 @@ Personal project for credit risk analysis simulation. The goal is to explore cus
 
 ## 📊 About the Project
 
-This project uses the **"Give Me Some Credit"** dataset from Kaggle to perform credit risk analysis. It's an educational simulation to learn about data analysis and machine learning.
+This project uses the **UCI Credit Card** dataset to perform credit risk analysis. It's an educational simulation to learn about data analysis and machine learning.
 
 ## 📁 Project Structure
 
 ```
 Credit/
 │
-├── data/                # Data files
-├── notebooks/           # Jupyter notebooks
-├── src/                 # Python code
-│   └── download_data.py # Script to download data
-├── tests/               # Tests (future)
-├── README.md            # This file
-└── requirements.txt     # Python dependencies
+├── data/                    # Data files
+│   └── UCI_Credit_Card.csv # Main dataset
+├── notebooks/               # Jupyter notebooks
+│   ├── 01_exploration.ipynb # Initial data exploration
+│   ├── 02_eda.ipynb        # Exploratory data analysis
+│   ├── 03_preprocessing.ipynb # Data preprocessing (planned)
+│   ├── 04_modeling.ipynb   # Model development (planned)
+│   └── 05_results.ipynb    # Results analysis (planned)
+├── src/                     # Python code
+│   ├── download_data.py    # Script to download data
+│   └── preprocessing.py    # Data preprocessing functions (empty)
+├── tests/                   # Tests (future)
+├── README.md               # This file
+├── requirements.txt        # Python dependencies
+└── .gitignore             # Git ignore file
 ```
 
 ## 🚀 How to Use
@@ -31,6 +39,10 @@ Credit/
    ```bash
    python src/download_data.py
    ```
+4. **Open notebooks**:
+   ```bash
+   jupyter notebook notebooks/
+   ```
 
 ## 🛠️ What's Already Done
 
@@ -38,13 +50,17 @@ Credit/
 - ✅ Data download script
 - ✅ Python dependencies list
 - ✅ README with instructions
+- ✅ Git repository setup
+- ✅ Data exploration notebooks (01_exploration.ipynb, 02_eda.ipynb)
+- ✅ UCI Credit Card dataset loaded
 
 ## 📝 Next Steps
 
-- [ ] Exploratory data analysis
-- [ ] Data visualizations
-- [ ] Risk classification model
-- [ ] Example notebooks
+- [ ] Complete data preprocessing functions
+- [ ] Finish preprocessing notebook (03_preprocessing.ipynb)
+- [ ] Develop machine learning models (04_modeling.ipynb)
+- [ ] Analyze and present results (05_results.ipynb)
+- [ ] Add unit tests
 
 ---
 
